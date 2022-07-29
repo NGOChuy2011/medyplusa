@@ -75,7 +75,8 @@ body{
 .header-top-info-left{
     display: flex;
     text-decoration: none;
-    padding: 0 6px;
+    /* padding: 0 6px; */
+    padding-right: 10px;
     line-height: 12px;
 }
 .change-lang img {
@@ -185,7 +186,7 @@ input.form-control{
     border-right: 0;
     border-bottom: 0;
     padding-left: 30px;
-    padding-right: 200px;
+    padding-right: 140px;
     outline: none;
     border-left-color: #e0e0e0;
 }
@@ -196,7 +197,7 @@ input.form-control{
 button.btn.btn-info {
     border-radius: 0 50px 50px 0;
     border-left: 0;
-    padding: 9px 33px;
+    padding: 9px 23px;
     border: none;
     background-color: #20acca;
     cursor: pointer;
@@ -275,13 +276,14 @@ button.btn.btn-info {
 .slider{
     position: relative;
     /* margin-top: 46px; */
-    padding-top: 40%;
+    /* padding-top: 39%; */
+    height: 750px;
     background: url('../images/img-slider.png') top center / cover no-repeat;
 }
 .slider .text-slider{
     position: absolute;
-    bottom: 200px;
-    margin-left: 390px;
+    bottom: 240px;
+    left: 20%;
     /* left: 50%;
     transform: translateX(-75%); */
     font-family: 'Poppins', sans-serif;
@@ -289,6 +291,7 @@ button.btn.btn-info {
 .slider .text-slider h1{
     font-size: 70px;
     color: #000;
+    font-weight: 500;
     /* text-overflow: ; */
 }
 .text-description{
@@ -360,11 +363,11 @@ a.shop-now {
     font-family: 'Poppins', sans-serif;
     /* justify-content: center; */
     margin: 60px auto;
-    column-gap: 30px;
+    column-gap: 42px;
 }
 .item-hot{
     display: flex;
-    margin-right: 15px;
+
 }
 .item-hot img{
     margin-right: 20px;
@@ -591,16 +594,18 @@ a.shop-now {
     font-size: 14px;
     font-weight: 700;
     color: #000000;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .items p {
     color: #0ca8c9;
     font-size: 13px;
     font-weight: 600;
+    margin-top: 5px;
 }
 #gach{
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 #gach del {
     color: #696969;
@@ -627,7 +632,7 @@ a.shop-now {
     display: none;
 }
 .items-selling .r2{
-    margin-top: 60px;
+    margin-top: 53px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -648,7 +653,7 @@ a.shop-now {
     display: flex;
     justify-content: center;
     position: relative;
-    height: 215px;
+    height: 220px;
 }
 .new .latest-title h2{
     position: absolute;
@@ -765,7 +770,7 @@ a.shop-now {
 }
 .newsletter .form-signup .signup button{
     border-radius: 50px;
-    padding: 15px 50px;
+    padding: 15px 56px;
     border: none;
     background-color: #20acca;
     cursor: pointer;
@@ -801,7 +806,7 @@ a.shop-now {
 .listfooter{
     display: flex;
     justify-content: space-between;
-    padding-top: 55px;
+    padding-top: 52px;
     /* width: 235px; */
     /* column-gap: 235px; */
 }
