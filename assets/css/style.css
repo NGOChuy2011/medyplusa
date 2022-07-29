@@ -185,7 +185,7 @@ input.form-control{
     border-right: 0;
     border-bottom: 0;
     padding-left: 30px;
-    padding-right: 200px;
+    padding-right: 100px;
     outline: none;
     border-left-color: #e0e0e0;
 }
@@ -275,7 +275,9 @@ button.btn.btn-info {
 .slider{
     position: relative;
     /* margin-top: 46px; */
-    padding-top: 40%;
+    /* padding-top: 40%; */
+    width: 100%;
+    height: 750px;
     background: url('../images/img-slider.png') top center / cover no-repeat;
 }
 .slider .text-slider{
@@ -289,6 +291,7 @@ button.btn.btn-info {
 .slider .text-slider h1{
     font-size: 70px;
     color: #000;
+    font-weight: 500;
     /* text-overflow: ; */
 }
 .text-description{
